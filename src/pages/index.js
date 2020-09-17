@@ -133,6 +133,7 @@ export default function Home() {
 
         <Section
           name="career"
+          id="career"
           className={
             width <= 1080 || isMobile
               ? "key-skills mobile d-flex flex-column align-items-center justify-content-center py-5"
@@ -196,7 +197,7 @@ export default function Home() {
           )}
         </Section>
 
-        <Section name="coaching" className="career-coaching">
+        <Section name="coaching" id="coaching" className="career-coaching">
           <Container className="coachingSec mb-5">
             <h1 className="mb-3 coachTitle">
               Free <span>Career Coaching</span>

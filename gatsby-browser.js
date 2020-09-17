@@ -7,7 +7,7 @@ import "firebase/storage"
 import StoreWrapper from "./src/store/appContext"
 
 // highlight-start
-export const wrapRootElement = ({ element }) => (
-    <StoreWrapper>{element}</StoreWrapper>
-)
+export const wrapRootElement = ({ element }) => {
+    return <StoreWrapper>{element}</StoreWrapper>
+}
 // highlight-end

@@ -17,7 +17,7 @@ export default function Jobs() {
         <div className="intro">
             <div data-collapse="medium" data-animation="default" data-duration="400" role="banner" className="navbar w-nav">
                 <div className="nav-left"><a href="#" className="brand w-nav-brand"><img src="images/MiamiTechWorks_Logo_Final_White-02.png" alt="" className="image-5" /></a></div>
-                <div className="nav-right"><a href="#" className="nav-link w-nav-link">Jobs</a><a href="#" className="nav-link w-nav-link">Career Paths</a><a href="#" className="nav-link w-nav-link">Resources</a><a href="#" className="nav-link w-nav-link">Coaching</a><a href="#" className="button-5 w-button">Post a Job</a>
+                <div className="nav-right"><a href="#" className="nav-link w-nav-link">Jobs</a><a href="#career" className="nav-link w-nav-link">Career Paths</a><a href="#" className="nav-link w-nav-link">Resources</a><a href="#coaching" className="nav-link w-nav-link">Coaching</a><a href="#" className="button-5 w-button">Post a Job</a>
                     <div className="w-nav-button">
                         <div className="icon w-icon-nav-menu"></div>
                     </div>
